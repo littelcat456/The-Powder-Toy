@@ -5497,7 +5497,7 @@ String Simulation::ElementResolve(int type, int ctype)
 	{
 		return elements[type].Name;
 	}
-	return "Empty";
+	return String("Empty");
 }
 
 String Simulation::BasicParticleInfo(Particle const &sample_part)
